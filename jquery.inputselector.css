@@ -1,0 +1,185 @@
+.is-box-wrap * {
+    padding: 0;
+    margin: 0;
+    color: #666666;
+    font-family: "Microsoft YaHei";
+    font-size: 1em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* 效果控制 */
+
+.hide {
+    display: none;
+}
+
+.on {
+    color: #fff;
+    background: #9cd9ff;
+}
+
+
+/* 效果控制结束 */
+
+
+/* wrap样式开始 */
+
+.is-box-wrap {
+    overflow: hidden;
+    position: absolute;
+    z-index: 999999;
+}
+
+.is-title {
+    display: block;
+    margin: 1px;
+    margin-bottom: 3px;
+    border-width: 0;
+    border-bottom: dotted 1px #ddd;
+    padding: 6px 0 5px 5px;
+    text-align: left;
+    background-color: #E8F0F6;
+    position: relative;
+}
+/* wrap样式结束 */
+
+
+/* selector选择时样式开始 */
+.is-selector-wrap {
+    position: relative;
+    border: 2px solid #c9cbce;
+    background: #ffffff;
+}
+
+.is-tab-wrap {
+    display: block;
+}
+
+.is-content-ul {
+    padding: 9px;
+}
+
+
+/* 单个数据的样式 */
+
+.is-tab-cell {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 2px 4px 0;
+    text-align: center;
+    line-height: 40px;
+    color: #666666;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.is-tab-cell:hover {
+    color: #2e6da4;
+    font-size: 20px;
+}
+
+
+/* 非tab样式开始 */
+.is-tab-wrap>p {
+    font-weight: bold;
+    padding: 0 4px 0 12px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.is-tab-wrap>.line {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #d8d8d8;
+}
+/* 非tab样式结束 */
+
+/*tab样式开始*/
+.is-nav-tabs{
+	border-top: 1px solid #ccc;
+	margin-bottom: 25px;
+	/*-webkit-box-sizing: border-box;*/
+}
+.is-nav-tabs li{
+	float:left;
+	height:30px;
+	line-height: 30px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background:#fefefe;
+	background:-moz-linear-gradient(top, #fefefe, #ededed);	
+	background:-o-linear-gradient(left top,left bottom, from(#fefefe), to(#ededed));
+	background:-webkit-gradient(linear,left top,left bottom, from(#fefefe), to(#ededed));
+	text-align: center;
+	cursor:pointer;
+	list-style: none;
+}
+.is-nav-tabs li:last-child{
+	border-right: none;
+}
+.is-nav-tabs li.active{
+	border-bottom: none;
+    	background: #fff;
+}
+/*tab样式结束*/
+/* selector选择时样式结束 */
+
+
+/* input输入时样式开始 */
+.is-input-wrap {
+    position: relative;
+    background: #ffffff;
+    border: 1px solid #85bee5;
+    border-right-color: #3485c0;
+    border-bottom-color: #3485c0;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
+}
+.is-inputWrap-footer{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	margin: .3em 5px;
+	border-top: 1px solid #85bee5;
+}
+.is-inputWrap-footer a{
+	display: inline-block;
+	font-size: .9em;
+	color:#0055aa;
+	text-decoration: none;
+	text-align: center;
+}
+.is-inputWrap-footer a.is-flip{
+	width: 30%;
+}
+.is-inputWrap-footer a.is-instruction{
+	width: 40%;
+}
+.is-ul-wrap {
+    width: 200px;
+}
+.is-ul-wrap li {
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    padding: 4px 5px;
+    list-style: none;
+}
+.is-ul-wrap li>b {
+    font-weight: normal;
+}
+.is-data-name {
+    float: left;
+}
+.is-data-spell {
+    float: right;
+}
+/* input输入时样式结束 */

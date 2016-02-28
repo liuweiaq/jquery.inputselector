@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>jquery.inputselector Demo</title>
+        <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/bootstrap/2.3.2/css/bootstrap.min.css">
+        <link href="../jquery.inputselector.css" rel="stylesheet">
+        <style type="text/css">
+            .o-panel-body-add{
+                padding: 20px 0 0;
+                margin: 0;
+                height: 500px;
+            }
+            .o-panel-body-add>.cityinput{
+                margin-top:10px;
+                margin-left: 100px;
+                width: 3em;
+            }
+            .o-panel-body-add:after{
+                font-size: 12px;
+                font-weight:700;
+                position: absolute;
+                top: 15px;
+                left: 60px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                color: #F14B0D;
+                content: "输入框：" !important;
+            }
+        </style>
+    </head>
+  <body>
+    <div class="panel panel-default o-panel-body-add">
+      <input type="text" class="cityinput" id="citySelect" value="" >
+    </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="http://cdn.bootcss.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../jquery.inputselector.js"></script>
+        <script type="text/javascript">
+          $('#citySelect').inputselector({
+                data:['京|jing|j','津|jin|j','沪|hu|h','渝|yu|y'],
+                isTab:false,  
+                isClassification:false,
+                dataTitle:'不分类时数据显示的标题',
+                title:'组件说明标题',
+                hotDataTitle:'重点地区',
+                isPaginator:false,
+                hotPlaceCount:2
+            });
+        </script>
+  </body>
+</html>
