@@ -1,52 +1,57 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>jquery.inputselector Demo</title>
-        <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/bootstrap/2.3.2/css/bootstrap.min.css">
-        <link href="../jquery.inputselector.css" rel="stylesheet">
-        <style type="text/css">
-      .o-panel-body-add{
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jquery.inputselector Demo</title>
+    <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/bootstrap/2.3.2/css/bootstrap.min.css">
+    <link href="../jquery.inputselector.css" rel="stylesheet">
+    <style type="text/css">
+    .o-panel-body-add {
         padding: 20px 0 0;
         margin: 0;
-                height: 300px;
-      }
-            .o-panel-body-add>.cityinput{
-                margin-top:10px;
-                margin-left: 20px;
-                width: 3em;
-            }
-            .o-panel-body-add:after{
-                font-size: 12px;
-                font-weight:700;
-                position: absolute;
-                top: 15px;
-                left: 15px;
-                letter-spacing: 1px;
-                text-transform: uppercase;
-                color: #F14B0D;
-                content: "*单击输入框，看看会发生什么？" !important;
-            }
-        </style>
-    </head>
-  <body>
+        height: 300px;
+    }
+    
+    .o-panel-body-add>.cityinput {
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 3em;
+    }
+    
+    .o-panel-body-add:after {
+        font-size: 12px;
+        font-weight: 700;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #F14B0D;
+        content: "*单击输入框，看看会发生什么？" !important;
+    }
+    </style>
+</head>
+
+<body>
     <div class="panel panel-default o-panel-body-add">
-      <input type="text" class="cityinput" id="citySelect" value="" >
+        <input type="text" class="cityinput" id="citySelect" value="">
     </div>
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
     <script type="text/javascript" src="http://cdn.bootcss.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="../jquery.inputselector.js"></script>
-        <script type="text/javascript">
-          $('#citySelect').inputselector({
-                data:['京|jing|j','津|jin|j','沪|hu|h','渝|yu|y','冀|ji|j','豫|yu|y','云|yun|y','辽|liao|l','黑|hei|h','湘|xiang|x','皖|wan|w','鲁|lu|l','新|xin|x','苏|su|s','浙|zhe|z','赣|gan|g','桂|gui|g','甘|gan|g','晋|jin|j','蒙|meng|m','陕|shang|s','吉|ji|j','闽|min|m','贵|gui|g','粤|yue|y','青|qing|q','藏|zang|z','琼|qiong|q'],
-                isTab:false,
-                isClassification:false,
-                dataTitle:'省份简称',
-                title:null,
-                isPaginator:false
-            });
-        </script>
-  </body>
+    <script type="text/javascript" src="../jquery.inputselector.js"></script>
+    <script type="text/javascript">
+    $('#citySelect').inputselector({
+        data: ['京|jing|j', '津|jin|j', '沪|hu|h', '渝|yu|y', '冀|ji|j', '豫|yu|y', '云|yun|y', '辽|liao|l', '黑|hei|h', '湘|xiang|x', '皖|wan|w', '鲁|lu|l', '新|xin|x', '苏|su|s', '浙|zhe|z', '赣|gan|g', '桂|gui|g', '甘|gan|g', '晋|jin|j', '蒙|meng|m', '陕|shang|s', '吉|ji|j', '闽|min|m', '贵|gui|g', '粤|yue|y', '青|qing|q', '藏|zang|z', '琼|qiong|q'],
+        isTab: false,
+        isClassification: false,
+        dataTitle: '省份简称',
+        title: null,
+        isPaginator: false
+    });
+    </script>
+</body>
+
 </html>

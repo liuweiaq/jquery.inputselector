@@ -44,10 +44,13 @@
     background-color: #E8F0F6;
     position: relative;
 }
+
+
 /* wrap样式结束 */
 
 
 /* selector选择时样式开始 */
+
 .is-selector-wrap {
     position: relative;
     border: 2px solid #c9cbce;
@@ -87,6 +90,7 @@
 
 
 /* 非tab样式开始 */
+
 .is-tab-wrap>p {
     font-weight: bold;
     padding: 0 4px 0 12px;
@@ -101,40 +105,52 @@
     margin-bottom: 4px;
     border-bottom: 1px solid #d8d8d8;
 }
+
+
 /* 非tab样式结束 */
 
+
 /*tab样式开始*/
-.is-nav-tabs{
-	border-top: 1px solid #ccc;
-	margin-bottom: 25px;
-	/*-webkit-box-sizing: border-box;*/
+
+.is-nav-tabs {
+    border-top: 1px solid #ccc;
+    margin-bottom: 25px;
+    /*-webkit-box-sizing: border-box;*/
 }
-.is-nav-tabs li{
-	float:left;
-	height:30px;
-	line-height: 30px;
-	border-right: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
-	background:#fefefe;
-	background:-moz-linear-gradient(top, #fefefe, #ededed);	
-	background:-o-linear-gradient(left top,left bottom, from(#fefefe), to(#ededed));
-	background:-webkit-gradient(linear,left top,left bottom, from(#fefefe), to(#ededed));
-	text-align: center;
-	cursor:pointer;
-	list-style: none;
+
+.is-nav-tabs li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background: #fefefe;
+    background: -moz-linear-gradient(top, #fefefe, #ededed);
+    background: -o-linear-gradient(left top, left bottom, from(#fefefe), to(#ededed));
+    background: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#ededed));
+    text-align: center;
+    cursor: pointer;
+    list-style: none;
 }
-.is-nav-tabs li:last-child{
-	border-right: none;
+
+.is-nav-tabs li:last-child {
+    border-right: none;
 }
-.is-nav-tabs li.active{
-	border-bottom: none;
-    	background: #fff;
+
+.is-nav-tabs li.active {
+    border-bottom: none;
+    background: #fff;
 }
+
+
 /*tab样式结束*/
+
+
 /* selector选择时样式结束 */
 
 
 /* input输入时样式开始 */
+
 .is-input-wrap {
     position: relative;
     background: #ffffff;
@@ -143,29 +159,35 @@
     border-bottom-color: #3485c0;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
 }
-.is-inputWrap-footer{
-	display: block;
-	height: 30px;
-	line-height: 30px;
-	margin: .3em 5px;
-	border-top: 1px solid #85bee5;
+
+.is-inputWrap-footer {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin: .3em 5px;
+    border-top: 1px solid #85bee5;
 }
-.is-inputWrap-footer a{
-	display: inline-block;
-	font-size: .9em;
-	color:#0055aa;
-	text-decoration: none;
-	text-align: center;
+
+.is-inputWrap-footer a {
+    display: inline-block;
+    font-size: .9em;
+    color: #0055aa;
+    text-decoration: none;
+    text-align: center;
 }
-.is-inputWrap-footer a.is-flip{
-	width: 30%;
+
+.is-inputWrap-footer a.is-flip {
+    width: 30%;
 }
-.is-inputWrap-footer a.is-instruction{
-	width: 40%;
+
+.is-inputWrap-footer a.is-instruction {
+    width: 40%;
 }
+
 .is-ul-wrap {
     width: 200px;
 }
+
 .is-ul-wrap li {
     overflow: hidden;
     height: 30px;
@@ -173,13 +195,18 @@
     padding: 4px 5px;
     list-style: none;
 }
+
 .is-ul-wrap li>b {
     font-weight: normal;
 }
+
 .is-data-name {
     float: left;
 }
+
 .is-data-spell {
     float: right;
 }
+
+
 /* input输入时样式结束 */
